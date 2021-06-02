@@ -1,5 +1,15 @@
 # Dev Assessment - Webhook Receiver
 
+
+* Achieved output 
+![Capture](https://github.com/abhishekchauhanbyte/webhook-repo/blob/master/app/img/webhoook_assign/Capture.PNG?raw=true)
+
+
+*Database snip (mongodb atlas)
+![database_snip_mongodb_atlas](https://github.com/abhishekchauhanbyte/webhook-repo/blob/master/app/img/webhoook_assign/database_snip_mongodb_atlas.PNG?raw=true)
+
+
+
 Please use this repository for constructing the Flask webhook receiver.
 
 *******************
@@ -46,5 +56,3 @@ You need to use this as the base and setup the flask app. Integrate this with Mo
 
 *******************
 
-* Achieved output 
-![capture](https://github.com/abhishekchauhanbyte/webhook-repo/blob/master/app/img/webhoook_assign/Capture.PNG?raw=true)
