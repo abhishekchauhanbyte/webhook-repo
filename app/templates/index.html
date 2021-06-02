@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body{
+        background: darkgray;
+    }
+    .italics{
+        font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Webhook INFO</h1>
+    <div class="italics">
+        {{ data.author}} {{data.action}} from {{ data.from_branch }} to {{ data.to_branch }} on {{data.dateTime }}
+    </div>
+</body>
+</html>

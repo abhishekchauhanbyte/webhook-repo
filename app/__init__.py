@@ -1,14 +1,19 @@
-from flask import Flask
-
+from flask import Flask,render_template
+from flask import json
+from flask import request
 from app.webhook.routes import webhook
 
-
-# Creating our flask app
-def create_app():
-
+def create_app(test_config=None):
     app = Flask(__name__)
-    
-    # registering all the blueprints
-    app.register_blueprint(webhook)
-    
+
+    #registering the blueprints
+    app.register_blueprint(webhook ,url_prefix="/webhook")
+
+
+    # hello route
+    @app.route('/')
+    def hello():
+        return "check output on localhost:port/webhook/"
+
     return app
+
